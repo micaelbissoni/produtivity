@@ -20,6 +20,7 @@ Plug 'ncm2/ncm2-tern', {'do': 'npm install'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'Chiel92/vim-autoformat'
 call plug#end()
 
 colorscheme gruvbox
@@ -37,6 +38,7 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader>oi ooi Micael<esc>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-s> :write<cr>
+noremap <F3> :Autoformat<CR>
 
 let g:UltiSnipsEditSplit='vertical'
 let g:UltiSnipsDir='~/.config/nvim/ultisnips'

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/dextop/Projetos/trevoo/src'
-let g:netrw_dirhist_2='/home/dextop/.config/nvim'
-let g:netrw_dirhist_3='/home/dextop/Projetos/trevoo/src'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/micael/Projetos/E-thinkers/MYMAGENTO2/src/app/code/Eth/LoginVip/Block'
+let g:netrw_dirhist_2='/home/micael/Projetos/E-thinkers/MYMAGENTO2/src/app/code/Eth/LoginVip'
+let g:netrw_dirhist_3='/home/micael/Projetos/E-thinkers/MYMAGENTO2/src/app/code/Eth/LoginVip/Helper'
+let g:netrw_dirhist_4='/home/micael/.config/nvim'
