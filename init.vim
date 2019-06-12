@@ -4,7 +4,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'w0rp/ale'
-Plug 'vim-scripts/netrw.vim'
+Plug 'scrooloose/nerdtree'
 Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 " enable ncm2 for all buffers
@@ -38,7 +38,8 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader>oi ooi Micael<esc>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-s> :write<cr>
-noremap <F3> :Autoformat<CR>
+nnoremap <F3> :Autoformat<CR>
+nnoremap <tab> :NERDTreeToggle<CR>
 
 let g:UltiSnipsEditSplit='vertical'
 let g:UltiSnipsDir='~/.config/nvim/ultisnips'
